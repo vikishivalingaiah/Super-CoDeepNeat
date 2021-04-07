@@ -1,0 +1,2336 @@
+INFO:root:================================================================================
+INFO:root:Evolution Algorithm
+INFO:root:================================================================================
+INFO:root:Beginning evolution........
+INFO:root:Using parameters:
+INFO:root:{'generations': 20, 'supernet': {'population_size': 1, 'minimal_individual_sizes': [5]}, 'modules': {'num_of_species': 3, 'population_size': 20, 'delta': 0.1, 'minimal_individual_sizes': [1], 'generation_gap': 0.5, 'elitism_rate': 0.3, 'crossover_probability': 0.9, 'mutation_rate': 0.9}, 'blueprints': {'num_of_species': 3, 'population_size': 20, 'delta': 0.7, 'minimal_individual_sizes': [1], 'generation_gap': 0.5, 'elitism_rate': 0.3, 'crossover_probability': 0.9, 'mutation_rate': 0.9}}
+INFO:root:Initializing...............
+INFO:root:Initialization complete.
+INFO:root:Calculating fitness.....
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-706185
+INFO:root:[1.0440047979354858, 0.6848999857902527]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-706185-1_15_36_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-706185
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-706185-1_15_36_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-385641
+INFO:root:[0.9814276099205017, 0.682699978351593]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-385641-1_15_47_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-385641
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-385641-1_15_47_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-627834
+INFO:root:[1.1986615657806396, 0.6524999737739563]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-627834-1_15_52_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-627834
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-627834-1_15_52_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-506382
+INFO:root:[0.9955157041549683, 0.6873000264167786]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-506382-1_16_04_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-506382
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-506382-1_16_04_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-381507
+INFO:root:[0.9634475708007812, 0.7261999845504761]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-381507-1_16_16_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-381507-1_16_16_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-528401
+INFO:root:[1.3186792135238647, 0.652999997138977]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-528401-1_16_21_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-528401
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-528401-1_16_21_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-810437
+INFO:root:[1.2321350574493408, 0.6438000202178955]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-810437-1_16_31_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-810437
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-810437-1_16_31_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-041758
+INFO:root:[0.8487669229507446, 0.7231000065803528]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-041758-1_16_45_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-041758
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-041758-1_16_45_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-752034
+INFO:root:[1.256316900253296, 0.6315000057220459]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-752034-1_16_53_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-752034
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-752034-1_16_53_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-548021
+INFO:root:[1.334045648574829, 0.6699000000953674]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-548021-1_16_58_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-548021
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-548021-1_16_58_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-453628
+INFO:root:[0.9478118419647217, 0.7218000292778015]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-453628-1_17_09_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-453628
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-453628-1_17_09_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-172460
+INFO:root:[1.0059205293655396, 0.7232000231742859]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-172460-1_17_25_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-172460
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-172460-1_17_25_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-384627
+INFO:root:[1.2150317430496216, 0.679099977016449]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-384627-1_17_35_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-384627
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-384627-1_17_35_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-320574
+INFO:root:[1.0005160570144653, 0.7269999980926514]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-320574-1_17_47_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-320574
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-320574-1_17_47_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-847162
+INFO:root:[0.9413602352142334, 0.694599986076355]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-847162-1_18_01_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-847162-1_18_01_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-852347
+INFO:root:[1.060219168663025, 0.7279999852180481]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-852347-1_18_13_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-852347
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-852347-1_18_13_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-187640
+INFO:root:[0.989534854888916, 0.6924999952316284]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-187640-1_18_23_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-187640
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-187640-1_18_23_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-781035
+INFO:root:[1.1026731729507446, 0.6850000023841858]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-781035-1_18_35_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-781035
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-781035-1_18_35_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-670452
+INFO:root:[1.022492527961731, 0.6929000020027161]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-670452-1_18_49_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-670452
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-670452-1_18_49_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-741350
+INFO:root:[1.1272817850112915, 0.682699978351593]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-741350-1_18_59_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-741350
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-741350-1_18_59_11_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-706185-1_15_36_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-385641-1_15_47_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-627834-1_15_52_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-506382-1_16_04_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-381507-1_16_16_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-528401-1_16_21_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-810437-1_16_31_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-041758-1_16_45_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-752034-1_16_53_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-548021-1_16_58_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-453628-1_17_09_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-172460-1_17_25_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-384627-1_17_35_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-320574-1_17_47_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-847162-1_18_01_11_02_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-852347-1_18_13_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-187640-1_18_23_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-781035-1_18_35_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-670452-1_18_49_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-741350-1_18_59_11_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-852347
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-852347-1_18_59_11_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-852347
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-852347-1_18_59_11_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-852347 with fitness 0.7279999852180481 for random intialization
+INFO:root:****************************************
+INFO:root:Evolving for generation: 0
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-852347
+INFO:root:[1.0991628170013428, 0.7179999947547913]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523470_19_12_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-852347
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523470_19_12_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-320574
+INFO:root:[1.069858193397522, 0.7328000068664551]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205740_19_24_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-320574
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205740_19_24_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-381507
+INFO:root:[1.1040440797805786, 0.7355999946594238]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815070_19_36_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815070_19_36_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-172460
+INFO:root:[1.2756366729736328, 0.6930000185966492]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1724600_19_52_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-172460
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1724600_19_52_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-041758
+INFO:root:[0.9937837719917297, 0.7013000249862671]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0417580_20_09_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-041758
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0417580_20_09_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-453628
+INFO:root:[1.1463109254837036, 0.6643999814987183]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4536280_20_19_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-453628
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4536280_20_19_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-847162
+INFO:root:[0.944161057472229, 0.7228000164031982]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471620_20_32_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471620_20_32_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-670452
+INFO:root:[1.0078754425048828, 0.6991000175476074]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704520_20_46_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-670452
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704520_20_46_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-187640
+INFO:root:[1.183166742324829, 0.6963000297546387]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1876400_20_56_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-187640
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1876400_20_56_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-506382
+INFO:root:[1.1242235898971558, 0.725600004196167]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063820_21_08_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-506382
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063820_21_08_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-452860
+INFO:root:[1.1487692594528198, 0.6708999872207642]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4528600_21_20_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-452860
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4528600_21_20_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-531760
+INFO:root:[0.9964426755905151, 0.7031000256538391]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5317600_22_32_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-531760
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5317600_22_32_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-015486
+INFO:root:[1.171743631362915, 0.694100022315979]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0154860_22_45_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-015486
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0154860_22_45_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-675104
+INFO:root:[1.1746126413345337, 0.7034000158309937]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6751040_23_01_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-675104
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6751040_23_01_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-804315
+INFO:root:[1.0044798851013184, 0.7236999869346619]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043150_23_31_11_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804315
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043150_23_31_11_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-760218
+INFO:root:[1.0003621578216553, 0.7095000147819519]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7602180_00_19_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-760218
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7602180_00_19_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-458320
+INFO:root:[0.9649104475975037, 0.7340999841690063]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583200_01_06_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-458320
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583200_01_06_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-645281
+INFO:root:[1.0339090824127197, 0.7135999798774719]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452810_01_20_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-645281
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452810_01_20_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-706518
+INFO:root:[0.9229058623313904, 0.7486000061035156]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065180_01_54_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-706518
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065180_01_54_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-382645
+INFO:root:[1.283861756324768, 0.7056000232696533]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826450_02_06_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-382645
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826450_02_06_12_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523470_19_12_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205740_19_24_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815070_19_36_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1724600_19_52_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0417580_20_09_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4536280_20_19_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471620_20_32_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704520_20_46_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1876400_20_56_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063820_21_08_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4528600_21_20_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5317600_22_32_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0154860_22_45_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6751040_23_01_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043150_23_31_11_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7602180_00_19_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583200_01_06_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452810_01_20_12_02_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065180_01_54_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826450_02_06_12_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-706518
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065180_02_07_12_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-706518
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065180_02_07_12_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-706518 with fitness 0.7486000061035156 for generation 0
+INFO:root:Time for generation: 0 --- 25651.17660243102
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 1
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-706518
+INFO:root:[0.9377158284187317, 0.7644000053405762]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065181_02_41_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-706518
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065181_02_41_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-381507
+INFO:root:[1.1795713901519775, 0.7293000221252441]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815071_02_53_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815071_02_53_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-458320
+INFO:root:[0.8725458979606628, 0.761900007724762]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583201_03_41_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-458320
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583201_03_41_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-320574
+INFO:root:[1.223528265953064, 0.7276999950408936]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205741_03_53_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-320574
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205741_03_53_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-506382
+INFO:root:[1.2140856981277466, 0.7372000217437744]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063821_04_05_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-506382
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063821_04_05_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-804315
+INFO:root:[0.9495713114738464, 0.7644000053405762]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043151_04_35_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804315
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043151_04_35_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-847162
+INFO:root:[0.9253873229026794, 0.7404999732971191]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471621_04_49_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471621_04_49_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-852347
+INFO:root:[1.2271971702575684, 0.7353000044822693]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523471_05_01_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-852347
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523471_05_01_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-645281
+INFO:root:[0.9945288896560669, 0.7368999719619751]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452811_05_15_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-645281
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452811_05_15_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-760218
+INFO:root:[1.0172024965286255, 0.7160999774932861]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7602181_06_01_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-760218
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7602181_06_01_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-382645
+INFO:root:[1.2271201610565186, 0.728600025177002]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826451_06_13_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-382645
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826451_06_13_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-675104
+INFO:root:[1.1140203475952148, 0.7258999943733215]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6751041_06_30_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-675104
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6751041_06_30_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-041758
+INFO:root:[0.985348641872406, 0.7105000019073486]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0417581_06_44_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-041758
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0417581_06_44_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-670452
+INFO:root:[1.062835931777954, 0.7332000136375427]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704521_06_59_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-670452
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704521_06_59_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-063428
+INFO:root:[0.991554319858551, 0.7634000182151794]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0634281_08_05_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-063428
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0634281_08_05_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-750234
+INFO:root:[0.9311800003051758, 0.7299000024795532]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502341_09_10_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750234
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502341_09_10_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-265871
+INFO:root:[0.8253562450408936, 0.7515000104904175]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2658711_10_02_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-265871
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2658711_10_02_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-521074
+INFO:root:[0.9877816438674927, 0.7210999727249146]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5210741_10_17_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-521074
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5210741_10_17_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-134760
+INFO:root:[1.0831795930862427, 0.7002000212669373]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1347601_10_27_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-134760
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1347601_10_27_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-750268
+INFO:root:[1.0067850351333618, 0.738099992275238]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502681_10_41_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502681_10_41_12_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065181_02_41_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815071_02_53_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583201_03_41_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205741_03_53_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063821_04_05_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043151_04_35_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471621_04_49_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523471_05_01_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452811_05_15_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7602181_06_01_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826451_06_13_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6751041_06_30_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0417581_06_44_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704521_06_59_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0634281_08_05_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502341_09_10_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2658711_10_02_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5210741_10_17_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1347601_10_27_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502681_10_41_12_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-706518
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065181_10_41_12_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-706518
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065181_10_41_12_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-706518 with fitness 0.7644000053405762 for generation 1
+INFO:root:Time for generation: 1 --- 30860.374042840995
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 2
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-706518
+INFO:root:[0.9521686434745789, 0.7649999856948853]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065182_11_15_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-706518
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065182_11_15_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-804315
+INFO:root:[0.9141044020652771, 0.7717999815940857]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043152_11_45_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804315
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043152_11_45_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-063428
+INFO:root:[0.9555701017379761, 0.7735999822616577]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0634282_12_50_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-063428
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0634282_12_50_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-458320
+INFO:root:[1.1037566661834717, 0.7709000110626221]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583202_13_37_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-458320
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583202_13_37_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-847162
+INFO:root:[1.0126399993896484, 0.7451000213623047]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471622_13_51_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471622_13_51_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-750268
+INFO:root:[1.0244063138961792, 0.7483999729156494]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502682_14_04_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502682_14_04_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-506382
+INFO:root:[1.2047635316848755, 0.7003999948501587]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063822_14_14_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-506382
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063822_14_14_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-645281
+INFO:root:[1.078199028968811, 0.7394000291824341]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452812_14_28_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-645281
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452812_14_28_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-852347
+INFO:root:[1.2324941158294678, 0.7099999785423279]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523472_14_38_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-852347
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523472_14_38_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-670452
+INFO:root:[1.1556849479675293, 0.7310000061988831]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704522_14_52_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-670452
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704522_14_52_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-381507
+INFO:root:[1.2278951406478882, 0.7114999890327454]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815072_15_02_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815072_15_02_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-382645
+INFO:root:[1.2339307069778442, 0.7163000106811523]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826452_15_11_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-382645
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826452_15_11_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-320574
+INFO:root:[1.2242344617843628, 0.7192999720573425]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205742_15_21_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-320574
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205742_15_21_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-512603
+INFO:root:[0.9292460083961487, 0.7639999985694885]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5126032_15_55_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-512603
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5126032_15_55_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-473652
+INFO:root:[1.0298279523849487, 0.7484999895095825]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4736522_16_45_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-473652
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4736522_16_45_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-267405
+INFO:root:[0.8713039755821228, 0.7820000052452087]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2674052_18_10_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-267405
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2674052_18_10_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-452781
+INFO:root:[1.0281955003738403, 0.72079998254776]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4527812_19_14_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-452781
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4527812_19_14_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-813750
+INFO:root:[1.309518814086914, 0.7110999822616577]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137502_19_25_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-813750
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137502_19_25_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-728056
+INFO:root:[1.3241891860961914, 0.7106999754905701]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7280562_19_34_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-728056
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7280562_19_34_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-732845
+INFO:root:[1.050083875656128, 0.746999979019165]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328452_19_48_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328452_19_48_12_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7065182_11_15_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043152_11_45_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0634282_12_50_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4583202_13_37_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471622_13_51_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502682_14_04_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5063822_14_14_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452812_14_28_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8523472_14_38_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704522_14_52_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815072_15_02_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826452_15_11_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205742_15_21_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5126032_15_55_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4736522_16_45_12_02_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-2674052_18_10_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4527812_19_14_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137502_19_25_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7280562_19_34_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328452_19_48_12_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-267405
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2674052_19_48_12_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-267405
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2674052_19_48_12_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-267405 with fitness 0.7820000052452087 for generation 2
+INFO:root:Time for generation: 2 --- 32817.068392179994
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 3
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-267405
+INFO:root:[0.938571572303772, 0.7501000165939331]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2674053_21_03_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-267405
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2674053_21_03_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-804315
+INFO:root:[0.949012815952301, 0.742900013923645]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043153_21_22_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804315
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043153_21_22_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-750268
+INFO:root:[1.0282796621322632, 0.7590000033378601]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502683_21_35_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502683_21_35_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-732845
+INFO:root:[1.0282186269760132, 0.7597000002861023]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328453_21_49_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328453_21_49_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-847162
+INFO:root:[1.0961451530456543, 0.7505999803543091]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471623_22_02_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471623_22_02_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-645281
+INFO:root:[1.1474815607070923, 0.6783999800682068]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452813_22_18_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-645281
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452813_22_18_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-670452
+INFO:root:[1.1654536724090576, 0.7064999938011169]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704523_22_34_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-670452
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704523_22_34_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-320574
+INFO:root:[1.31111741065979, 0.7174000144004822]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205743_22_44_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-320574
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205743_22_44_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-382645
+INFO:root:[1.3684241771697998, 0.7121999859809875]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826453_22_54_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-382645
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826453_22_54_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-381507
+INFO:root:[1.3598716259002686, 0.7159000039100647]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815073_23_04_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815073_23_04_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-813750
+INFO:root:[1.3722683191299438, 0.7157999873161316]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137503_23_14_12_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-813750
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137503_23_14_12_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-364852
+INFO:root:[0.8479474782943726, 0.7559999823570251]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648523_00_07_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-364852
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648523_00_07_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-305274
+INFO:root:[0.9955745935440063, 0.7574999928474426]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052743_01_02_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305274
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052743_01_02_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-061578
+INFO:root:[0.9304272532463074, 0.7330999970436096]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0615783_01_36_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-061578
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0615783_01_36_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-407513
+INFO:root:[0.9463592767715454, 0.767300009727478]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4075133_04_27_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-407513
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4075133_04_27_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-542381
+INFO:root:[0.8333663940429688, 0.7972999811172485]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5423813_05_42_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-542381
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5423813_05_42_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-701652
+INFO:root:[1.0638703107833862, 0.756600022315979]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7016523_08_10_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-701652
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7016523_08_10_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-514082
+INFO:root:[0.9965932369232178, 0.7343999743461609]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5140823_08_38_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-514082
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5140823_08_38_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-820365
+INFO:root:[1.000311017036438, 0.745199978351593]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203653_08_51_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203653_08_51_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-160847
+INFO:root:[1.1354013681411743, 0.7401999831199646]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608473_09_05_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-160847
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608473_09_05_13_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2674053_21_03_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043153_21_22_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502683_21_35_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328453_21_49_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471623_22_02_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6452813_22_18_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6704523_22_34_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205743_22_44_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826453_22_54_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815073_23_04_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137503_23_14_12_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648523_00_07_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052743_01_02_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0615783_01_36_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4075133_04_27_13_02_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-5423813_05_42_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7016523_08_10_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5140823_08_38_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203653_08_51_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608473_09_05_13_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-542381
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5423813_09_05_13_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-542381
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5423813_09_05_13_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-542381 with fitness 0.7972999811172485 for generation 3
+INFO:root:Time for generation: 3 --- 47834.43253320397
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 4
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-542381
+INFO:root:[1.0274107456207275, 0.7365999817848206]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5423814_10_20_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-542381
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5423814_10_20_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-407513
+INFO:root:[0.8772896528244019, 0.7512999773025513]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4075134_12_59_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-407513
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4075134_12_59_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-732845
+INFO:root:[1.113468885421753, 0.7538999915122986]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328454_13_13_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328454_13_13_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-750268
+INFO:root:[1.1696184873580933, 0.7448999881744385]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502684_13_26_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502684_13_26_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-305274
+INFO:root:[1.012352705001831, 0.7457000017166138]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052744_14_22_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305274
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052744_14_22_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-364852
+INFO:root:[0.8756280541419983, 0.7649999856948853]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648524_15_13_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-364852
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648524_15_13_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-847162
+INFO:root:[1.1265958547592163, 0.7559000253677368]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471624_15_27_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471624_15_27_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-820365
+INFO:root:[1.193545937538147, 0.7534999847412109]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203654_15_41_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203654_15_41_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-804315
+INFO:root:[0.9080712199211121, 0.7598000168800354]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043154_16_00_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804315
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043154_16_00_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-160847
+INFO:root:[1.1663717031478882, 0.7555999755859375]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608474_16_14_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-160847
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608474_16_14_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-320574
+INFO:root:[1.3545242547988892, 0.7160999774932861]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205744_16_24_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-320574
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205744_16_24_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-381507
+INFO:root:[1.389147400856018, 0.7207000255584717]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815074_16_34_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815074_16_34_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-813750
+INFO:root:[1.3968926668167114, 0.7189000248908997]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137504_16_44_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-813750
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137504_16_44_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-382645
+INFO:root:[1.3648655414581299, 0.7192999720573425]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826454_16_53_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-382645
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826454_16_53_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-032548
+INFO:root:[1.0373132228851318, 0.7483999729156494]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325484_19_02_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-032548
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325484_19_02_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-620354
+INFO:root:[1.2083815336227417, 0.7027999758720398]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203544_22_16_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-620354
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203544_22_16_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-834715
+INFO:root:[0.8961325883865356, 0.7727000117301941]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8347154_23_35_13_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-834715
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8347154_23_35_13_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-423765
+INFO:root:[1.0923283100128174, 0.6851000189781189]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4237654_00_30_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-423765
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4237654_00_30_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-648213
+INFO:root:[1.132794737815857, 0.7042999863624573]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6482134_00_42_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-648213
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6482134_00_42_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-804562
+INFO:root:[1.2377336025238037, 0.7457000017166138]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045624_00_56_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045624_00_56_14_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5423814_10_20_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4075134_12_59_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328454_13_13_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502684_13_26_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052744_14_22_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648524_15_13_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471624_15_27_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203654_15_41_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8043154_16_00_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608474_16_14_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3205744_16_24_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815074_16_34_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137504_16_44_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826454_16_53_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325484_19_02_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203544_22_16_13_02_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-8347154_23_35_13_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4237654_00_30_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6482134_00_42_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045624_00_56_14_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-834715
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8347154_00_56_14_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-834715
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8347154_00_56_14_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-834715 with fitness 0.7727000117301941 for generation 4
+INFO:root:Time for generation: 4 --- 57037.39464190102
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 5
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-834715
+INFO:root:[0.9590120911598206, 0.7340999841690063]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8347155_02_16_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-834715
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8347155_02_16_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-364852
+INFO:root:[1.0095282793045044, 0.7404999732971191]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648525_03_08_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-364852
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648525_03_08_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-847162
+INFO:root:[1.2208000421524048, 0.7520999908447266]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471625_03_22_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471625_03_22_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-160847
+INFO:root:[1.1985609531402588, 0.763700008392334]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608475_03_35_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-160847
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608475_03_35_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-732845
+INFO:root:[1.2042455673217773, 0.754800021648407]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328455_03_49_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328455_03_49_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-820365
+INFO:root:[1.2289304733276367, 0.7556999921798706]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203655_04_02_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203655_04_02_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-032548
+INFO:root:[0.9900524616241455, 0.7630000114440918]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325485_06_10_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-032548
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325485_06_10_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-804562
+INFO:root:[1.2552703619003296, 0.7495999932289124]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045625_06_24_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045625_06_24_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-750268
+INFO:root:[1.250010371208191, 0.7583000063896179]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502685_06_38_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502685_06_38_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-381507
+INFO:root:[1.456092119216919, 0.7128999829292297]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815075_06_47_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815075_06_47_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-382645
+INFO:root:[1.4067692756652832, 0.7110000252723694]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826455_06_57_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-382645
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826455_06_57_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-813750
+INFO:root:[1.4754799604415894, 0.7110999822616577]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137505_07_06_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-813750
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137505_07_06_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-620354
+INFO:root:[1.0580453872680664, 0.7307999730110168]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203545_10_14_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-620354
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203545_10_14_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-685307
+INFO:root:[0.9664392471313477, 0.7710000276565552]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853075_11_05_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-685307
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853075_11_05_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-824316
+INFO:root:[0.8288300037384033, 0.7799000144004822]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243165_13_17_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243165_13_17_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-831207
+INFO:root:[1.0009289979934692, 0.7495999932289124]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8312075_21_22_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-831207
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8312075_21_22_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-350124
+INFO:root:[0.9991424083709717, 0.7795000076293945]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3501245_23_43_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-350124
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3501245_23_43_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-068135
+INFO:root:[1.4895970821380615, 0.7113000154495239]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681355_23_53_14_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-068135
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681355_23_53_14_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-183604
+INFO:root:[1.5306075811386108, 0.7056999802589417]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1836045_00_02_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-183604
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1836045_00_02_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-384702
+INFO:root:[0.9289796948432922, 0.7448999881744385]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3847025_04_26_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-384702
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3847025_04_26_15_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8347155_02_16_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3648525_03_08_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471625_03_22_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608475_03_35_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328455_03_49_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203655_04_02_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325485_06_10_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045625_06_24_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502685_06_38_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815075_06_47_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3826455_06_57_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137505_07_06_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203545_10_14_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853075_11_05_14_02_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243165_13_17_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8312075_21_22_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3501245_23_43_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681355_23_53_14_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1836045_00_02_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3847025_04_26_15_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-824316
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243165_04_26_15_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243165_04_26_15_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-824316 with fitness 0.7799000144004822 for generation 5
+INFO:root:Time for generation: 5 --- 99031.82089669502
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 6
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-824316
+INFO:root:[0.84328293800354, 0.7914000153541565]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243166_06_42_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243166_06_42_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-685307
+INFO:root:[0.8384656310081482, 0.7889000177383423]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853076_07_33_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-685307
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853076_07_33_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-160847
+INFO:root:[1.307043194770813, 0.6653000116348267]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608476_07_46_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-160847
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608476_07_46_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-032548
+INFO:root:[0.9451101422309875, 0.7803000211715698]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325486_10_00_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-032548
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325486_10_00_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-750268
+INFO:root:[1.4281004667282104, 0.676800012588501]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502686_10_13_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502686_10_13_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-820365
+INFO:root:[1.3552922010421753, 0.6992999911308289]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203656_10_26_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203656_10_26_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-732845
+INFO:root:[1.3328464031219482, 0.7088000178337097]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328456_10_39_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328456_10_39_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-847162
+INFO:root:[1.3708887100219727, 0.7178000211715698]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471626_10_52_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471626_10_52_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-804562
+INFO:root:[1.3524442911148071, 0.7246999740600586]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045626_11_05_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045626_11_05_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-620354
+INFO:root:[1.0820837020874023, 0.7583000063896179]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203546_14_16_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-620354
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203546_14_16_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-381507
+INFO:root:[1.5497671365737915, 0.70169997215271]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815076_14_26_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815076_14_26_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-068135
+INFO:root:[1.5111186504364014, 0.7063999772071838]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681356_14_35_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-068135
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681356_14_35_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-813750
+INFO:root:[1.4766179323196411, 0.7157999873161316]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137506_14_45_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-813750
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137506_14_45_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-375804
+INFO:root:[0.9614744186401367, 0.7829999923706055]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3758046_17_31_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-375804
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3758046_17_31_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-125684
+INFO:root:[1.1443203687667847, 0.7534999847412109]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1256846_19_54_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-125684
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1256846_19_54_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-562738
+INFO:root:[1.0254875421524048, 0.7379999756813049]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5627386_20_26_15_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-562738
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5627386_20_26_15_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-824613
+INFO:root:[0.9736635684967041, 0.789900004863739]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8246136_00_49_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824613
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8246136_00_49_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-864270
+INFO:root:[0.9642167687416077, 0.7648000121116638]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8642706_10_30_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-864270
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8642706_10_30_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-280647
+INFO:root:[1.3399006128311157, 0.7235000133514404]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806476_10_43_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-280647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806476_10_43_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-305248
+INFO:root:[1.353502869606018, 0.7190999984741211]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052486_10_56_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305248
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052486_10_56_16_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243166_06_42_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853076_07_33_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1608476_07_46_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0325486_10_00_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502686_10_13_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203656_10_26_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328456_10_39_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471626_10_52_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045626_11_05_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6203546_14_16_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815076_14_26_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681356_14_35_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137506_14_45_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3758046_17_31_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1256846_19_54_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5627386_20_26_15_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8246136_00_49_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8642706_10_30_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806476_10_43_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052486_10_56_16_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-824316
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243166_10_56_16_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243166_10_56_16_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-824316 with fitness 0.7914000153541565 for generation 6
+INFO:root:Time for generation: 6 --- 109801.32726479397
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 7
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-824316
+INFO:root:[0.8991008996963501, 0.7791000008583069]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243167_13_00_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243167_13_00_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-824613
+INFO:root:[0.9410687685012817, 0.76910001039505]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8246137_16_58_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824613
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8246137_16_58_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-685307
+INFO:root:[0.9028817415237427, 0.7879999876022339]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853077_17_51_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-685307
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853077_17_51_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-804562
+INFO:root:[1.4016855955123901, 0.7257000207901001]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045627_18_04_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045627_18_04_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-280647
+INFO:root:[1.3904445171356201, 0.7228999733924866]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806477_18_16_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-280647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806477_18_16_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-305248
+INFO:root:[1.3679168224334717, 0.7303000092506409]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052487_18_30_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305248
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052487_18_30_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-847162
+INFO:root:[1.471238613128662, 0.7182000279426575]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471627_18_43_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471627_18_43_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-813750
+INFO:root:[1.5687036514282227, 0.70169997215271]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137507_18_53_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-813750
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137507_18_53_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-732845
+INFO:root:[1.4042657613754272, 0.729200005531311]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328457_19_06_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328457_19_06_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-068135
+INFO:root:[1.498765468597412, 0.7106999754905701]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681357_19_15_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-068135
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681357_19_15_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-381507
+INFO:root:[1.5513544082641602, 0.7091000080108643]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815077_19_25_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-381507
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815077_19_25_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-820365
+INFO:root:[1.387634038925171, 0.7289999723434448]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203657_19_38_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203657_19_38_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-750268
+INFO:root:[1.505384922027588, 0.7179999947547913]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502687_19_51_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502687_19_51_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-048523
+INFO:root:[0.9583125114440918, 0.7967000007629395]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0485237_23_00_16_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-048523
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0485237_23_00_16_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-018326
+INFO:root:[0.9921093583106995, 0.7771000266075134]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0183267_02_53_17_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-018326
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0183267_02_53_17_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-023647
+INFO:root:[0.9038320183753967, 0.7829999923706055]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0236477_04_51_17_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-023647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0236477_04_51_17_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-278134
+INFO:root:[1.206175684928894, 0.6794000267982483]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2781347_15_55_17_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-278134
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2781347_15_55_17_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-824713
+INFO:root:[1.0185766220092773, 0.7702999711036682]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8247137_16_27_17_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824713
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8247137_16_27_17_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-760532
+INFO:root:[1.3378098011016846, 0.7304999828338623]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7605327_23_23_17_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-760532
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7605327_23_23_17_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-720835
+INFO:root:[1.4893321990966797, 0.7253999710083008]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208357_23_35_17_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-720835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208357_23_35_17_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243167_13_00_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8246137_16_58_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853077_17_51_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045627_18_04_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806477_18_16_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052487_18_30_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471627_18_43_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8137507_18_53_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328457_19_06_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681357_19_15_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3815077_19_25_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203657_19_38_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502687_19_51_16_02_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-0485237_23_00_16_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0183267_02_53_17_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0236477_04_51_17_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2781347_15_55_17_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8247137_16_27_17_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7605327_23_23_17_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208357_23_35_17_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-048523
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0485237_23_35_17_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-048523
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0485237_23_35_17_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-048523 with fitness 0.7967000007629395 for generation 7
+INFO:root:Time for generation: 7 --- 131951.30152234202
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 8
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-685307
+INFO:root:[0.9517710208892822, 0.7919999957084656]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853078_00_26_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-685307
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853078_00_26_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-023647
+INFO:root:[0.8716820478439331, 0.7742000222206116]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0236478_02_36_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-023647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0236478_02_36_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-824316
+INFO:root:[0.8697595000267029, 0.7820000052452087]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243168_04_46_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243168_04_46_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-305248
+INFO:root:[1.4674274921417236, 0.7254999876022339]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052488_04_58_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305248
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052488_04_58_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-732845
+INFO:root:[1.4928157329559326, 0.7285000085830688]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328458_05_11_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328458_05_11_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-820365
+INFO:root:[1.4915248155593872, 0.7269999980926514]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203658_05_24_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203658_05_24_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-804562
+INFO:root:[1.514699935913086, 0.7282000184059143]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045628_05_37_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045628_05_37_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-720835
+INFO:root:[1.4911582469940186, 0.7314000129699707]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208358_05_50_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-720835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208358_05_50_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-280647
+INFO:root:[1.4871149063110352, 0.725600004196167]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806478_06_02_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-280647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806478_06_02_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-847162
+INFO:root:[1.5521804094314575, 0.7268999814987183]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471628_06_16_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471628_06_16_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-750268
+INFO:root:[1.5551583766937256, 0.7271000146865845]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502688_06_29_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502688_06_29_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-068135
+INFO:root:[1.5467430353164673, 0.7059999704360962]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681358_06_38_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-068135
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681358_06_38_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-278134
+INFO:root:[1.0517667531967163, 0.724399983882904]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2781348_17_51_18_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-278134
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2781348_17_51_18_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-108436
+INFO:root:[1.0423709154129028, 0.784600019454956]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1084368_00_18_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-108436
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1084368_00_18_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-745280
+INFO:root:[0.9872667193412781, 0.7497000098228455]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7452808_01_05_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-745280
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7452808_01_05_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-603827
+INFO:root:[0.9192445278167725, 0.7759000062942505]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6038278_03_16_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-603827
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6038278_03_16_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-647832
+INFO:root:[0.9486688375473022, 0.7766000032424927]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6478328_05_23_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-647832
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6478328_05_23_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-618420
+INFO:root:[1.1807399988174438, 0.7437999844551086]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6184208_11_54_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-618420
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6184208_11_54_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-873541
+INFO:root:[1.5277647972106934, 0.7350000143051147]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8735418_12_06_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-873541
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8735418_12_06_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-476280
+INFO:root:[1.6415140628814697, 0.697700023651123]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-4762808_12_15_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-476280
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4762808_12_15_19_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853078_00_26_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0236478_02_36_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243168_04_46_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052488_04_58_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328458_05_11_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203658_05_24_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045628_05_37_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208358_05_50_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806478_06_02_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471628_06_16_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502688_06_29_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681358_06_38_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2781348_17_51_18_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1084368_00_18_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7452808_01_05_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6038278_03_16_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6478328_05_23_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6184208_11_54_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8735418_12_06_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-4762808_12_15_19_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-685307
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853078_12_16_19_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-685307
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6853078_12_16_19_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-685307 with fitness 0.7919999957084656 for generation 8
+INFO:root:Time for generation: 8 --- 132006.66239637102
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 9
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-824316
+INFO:root:[0.9363629817962646, 0.7849000096321106]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243169_14_44_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243169_14_44_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-647832
+INFO:root:[0.9450433850288391, 0.7820000052452087]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6478329_17_14_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-647832
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6478329_17_14_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-603827
+INFO:root:[0.9506580829620361, 0.7806000113487244]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-6038279_19_47_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-603827
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6038279_19_47_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-873541
+INFO:root:[1.5470292568206787, 0.7304999828338623]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8735419_20_00_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-873541
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8735419_20_00_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-720835
+INFO:root:[1.5566678047180176, 0.7261999845504761]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208359_20_12_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-720835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208359_20_12_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-732845
+INFO:root:[1.530023455619812, 0.7336999773979187]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328459_20_24_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328459_20_24_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-804562
+INFO:root:[1.5810469388961792, 0.7246999740600586]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045629_20_37_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045629_20_37_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-750268
+INFO:root:[1.575378656387329, 0.7272999882698059]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502689_20_49_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502689_20_49_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-820365
+INFO:root:[1.6320687532424927, 0.7202000021934509]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203659_21_02_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203659_21_02_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-847162
+INFO:root:[1.582229733467102, 0.7271000146865845]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471629_21_15_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471629_21_15_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-280647
+INFO:root:[1.609100580215454, 0.7315999865531921]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806479_21_28_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-280647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806479_21_28_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-305248
+INFO:root:[1.6136845350265503, 0.7293999791145325]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052489_21_40_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305248
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052489_21_40_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-068135
+INFO:root:[1.5958459377288818, 0.7034000158309937]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681359_21_50_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-068135
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681359_21_50_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-341608
+INFO:root:[0.9622658491134644, 0.7706000208854675]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3416089_22_33_19_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-341608
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3416089_22_33_19_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-358624
+INFO:root:[1.024583339691162, 0.7904999852180481]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3586249_10_59_20_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-358624
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3586249_10_59_20_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-361405
+INFO:root:[0.946459174156189, 0.7879999876022339]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3614059_13_42_20_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-361405
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3614059_13_42_20_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-564287
+INFO:root:[0.9750469923019409, 0.7578999996185303]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-5642879_15_16_20_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-564287
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5642879_15_16_20_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-308541
+INFO:root:[1.1016778945922852, 0.761900007724762]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3085419_22_09_20_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-308541
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3085419_22_09_20_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-368405
+INFO:root:[1.1722133159637451, 0.7193999886512756]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3684059_05_40_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-368405
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3684059_05_40_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-105743
+INFO:root:[1.3721569776535034, 0.7085999846458435]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-1057439_06_13_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-105743
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1057439_06_13_22_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8243169_14_44_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6478329_17_14_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-6038279_19_47_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8735419_20_00_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7208359_20_12_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7328459_20_24_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8045629_20_37_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-7502689_20_49_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8203659_21_02_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-8471629_21_15_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-2806479_21_28_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3052489_21_40_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-0681359_21_50_19_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3416089_22_33_19_02_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-3586249_10_59_20_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3614059_13_42_20_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-5642879_15_16_20_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3085419_22_09_20_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3684059_05_40_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-1057439_06_13_22_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-358624
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-3586249_06_14_22_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-358624
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-3586249_06_14_22_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-358624 with fitness 0.7904999852180481 for generation 9
+INFO:root:Time for generation: 9 --- 237504.83279557608
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 10
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-824316
+INFO:root:[1.013067364692688, 0.7893999814987183]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-82431610_08_43_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-82431610_08_43_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-647832
+INFO:root:[0.9866102337837219, 0.7836999893188477]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-64783210_11_14_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-647832
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-64783210_11_14_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-341608
+INFO:root:[1.0773128271102905, 0.7516999840736389]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-34160810_11_56_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-341608
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-34160810_11_56_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-732845
+INFO:root:[1.6230212450027466, 0.7271999716758728]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284510_12_09_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284510_12_09_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-280647
+INFO:root:[1.636930227279663, 0.7311000227928162]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064710_12_22_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-280647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064710_12_22_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-873541
+INFO:root:[1.637389898300171, 0.7307000160217285]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354110_12_34_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-873541
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354110_12_34_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-305248
+INFO:root:[1.7053697109222412, 0.7275000214576721]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524810_12_47_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305248
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524810_12_47_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-750268
+INFO:root:[1.639798641204834, 0.7265999913215637]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026810_13_00_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026810_13_00_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-847162
+INFO:root:[1.7012896537780762, 0.7289999723434448]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716210_13_13_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716210_13_13_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-720835
+INFO:root:[1.6626588106155396, 0.734499990940094]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083510_13_26_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-720835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083510_13_26_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-804562
+INFO:root:[1.712116003036499, 0.733299970626831]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456210_13_39_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456210_13_39_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-820365
+INFO:root:[1.7002862691879272, 0.7289000153541565]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-82036510_13_52_22_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-82036510_13_52_22_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-601378
+INFO:root:[1.0035139322280884, 0.7756999731063843]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-60137810_02_38_23_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-601378
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-60137810_02_38_23_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-053147
+INFO:root:[1.1964000463485718, 0.7519999742507935]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-05314710_05_51_23_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-053147
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-05314710_05_51_23_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-012437
+INFO:root:[0.9913458228111267, 0.7835999727249146]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-01243710_08_22_23_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-012437
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-01243710_08_22_23_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-735148
+INFO:root:[0.8995260000228882, 0.7699000239372253]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-73514810_10_00_23_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-735148
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73514810_10_00_23_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-507128
+INFO:root:[1.2808618545532227, 0.7347000241279602]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-50712810_17_03_23_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-507128
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-50712810_17_03_23_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-784560
+INFO:root:[1.7401936054229736, 0.7253999710083008]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-78456010_17_16_23_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-784560
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-78456010_17_16_23_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-435281
+INFO:root:[1.1903932094573975, 0.697700023651123]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-43528110_21_47_27_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-435281
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-43528110_21_47_27_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-706138
+INFO:root:[1.368931770324707, 0.7311999797821045]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-70613810_01_42_28_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-706138
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-70613810_01_42_28_02_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-82431610_08_43_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-64783210_11_14_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-34160810_11_56_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284510_12_09_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064710_12_22_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354110_12_34_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524810_12_47_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026810_13_00_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716210_13_13_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083510_13_26_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456210_13_39_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-82036510_13_52_22_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-60137810_02_38_23_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-05314710_05_51_23_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-01243710_08_22_23_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73514810_10_00_23_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-50712810_17_03_23_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-78456010_17_16_23_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-43528110_21_47_27_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-70613810_01_42_28_02_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-824316
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-82431610_01_42_28_02_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-82431610_01_42_28_02_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-824316 with fitness 0.7893999814987183 for generation 10
+INFO:root:Time for generation: 10 --- 502114.0438803958
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 11
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-824316
+INFO:root:[0.9488943219184875, 0.7680000066757202]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-82431611_14_55_28_02_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-824316
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-82431611_14_55_28_02_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-735148
+INFO:root:[0.9609248042106628, 0.7627999782562256]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-73514811_00_33_01_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-735148
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73514811_00_33_01_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-053147
+INFO:root:[0.98357754945755, 0.7767000198364258]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-05314711_22_58_01_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-053147
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-05314711_22_58_01_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-720835
+INFO:root:[1.7129184007644653, 0.7312999963760376]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083511_00_44_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-720835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083511_00_44_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-804562
+INFO:root:[1.7051117420196533, 0.7289999723434448]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456211_02_29_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456211_02_29_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-280647
+INFO:root:[1.7427728176116943, 0.7312999963760376]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064711_04_16_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-280647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064711_04_16_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-873541
+INFO:root:[1.7121471166610718, 0.7315000295639038]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354111_06_10_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-873541
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354111_06_10_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-847162
+INFO:root:[1.7955422401428223, 0.7251999974250793]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716211_08_00_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716211_08_00_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-820365
+INFO:root:[1.7876439094543457, 0.7211999893188477]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-82036511_09_53_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-820365
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-82036511_09_53_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-305248
+INFO:root:[1.7506657838821411, 0.7243000268936157]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524811_11_47_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305248
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524811_11_47_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-732845
+INFO:root:[1.760250449180603, 0.7336000204086304]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284511_13_40_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284511_13_40_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-750268
+INFO:root:[1.7576944828033447, 0.7319999933242798]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026811_15_33_02_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026811_15_33_02_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-308625
+INFO:root:[0.9466553926467896, 0.7853000164031982]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862511_10_23_03_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-308625
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862511_10_23_03_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-064135
+INFO:root:[0.8662925958633423, 0.771399974822998]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-06413511_03_05_04_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-064135
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-06413511_03_05_04_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-071528
+INFO:root:[1.1008268594741821, 0.771399974822998]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152811_17_28_05_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-071528
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152811_17_28_05_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-530618
+INFO:root:[1.1394531726837158, 0.7398999929428101]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061811_20_40_05_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-530618
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061811_20_40_05_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-086723
+INFO:root:[1.0903255939483643, 0.7774999737739563]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672311_23_34_05_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-086723
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672311_23_34_05_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-642835
+INFO:root:[1.2250683307647705, 0.7282000184059143]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-64283511_00_19_06_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-642835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-64283511_00_19_06_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-254810
+INFO:root:[1.4326231479644775, 0.7282000184059143]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-25481011_00_40_06_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-254810
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-25481011_00_40_06_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-186403
+INFO:root:[1.0583661794662476, 0.718500018119812]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-18640311_11_10_08_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-186403
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-18640311_11_10_08_03_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-82431611_14_55_28_02_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73514811_00_33_01_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-05314711_22_58_01_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083511_00_44_02_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456211_02_29_02_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064711_04_16_02_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354111_06_10_02_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716211_08_00_02_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-82036511_09_53_02_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524811_11_47_02_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284511_13_40_02_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026811_15_33_02_03_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862511_10_23_03_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-06413511_03_05_04_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152811_17_28_05_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061811_20_40_05_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672311_23_34_05_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-64283511_00_19_06_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-25481011_00_40_06_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-18640311_11_10_08_03_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-308625
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862511_11_11_08_03_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-308625
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862511_11_11_08_03_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-308625 with fitness 0.7853000164031982 for generation 11
+INFO:root:Time for generation: 11 --- 725301.8957136578
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 12
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-308625
+INFO:root:[0.9662386775016785, 0.78329998254776]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862512_14_37_08_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-308625
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862512_14_37_08_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-086723
+INFO:root:[1.2299795150756836, 0.7609000205993652]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672312_17_33_08_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-086723
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672312_17_33_08_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-064135
+INFO:root:[2.558885335922241, 0.6434000134468079]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-06413512_20_41_08_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-064135
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-06413512_20_41_08_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-071528
+INFO:root:[1.099168062210083, 0.7677000164985657]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152812_11_51_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-071528
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152812_11_51_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-530618
+INFO:root:[1.106210708618164, 0.756600022315979]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061812_15_45_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-530618
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061812_15_45_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-732845
+INFO:root:[1.7278330326080322, 0.7364000082015991]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284512_15_58_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284512_15_58_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-750268
+INFO:root:[1.7791728973388672, 0.7304999828338623]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026812_16_12_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026812_16_12_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-873541
+INFO:root:[1.7733349800109863, 0.7315000295639038]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354112_16_25_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-873541
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354112_16_25_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-720835
+INFO:root:[1.8005677461624146, 0.7328000068664551]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083512_16_38_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-720835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083512_16_38_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-280647
+INFO:root:[1.8023954629898071, 0.7282000184059143]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064712_16_52_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-280647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064712_16_52_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-804562
+INFO:root:[1.8354700803756714, 0.7258999943733215]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456212_17_05_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-804562
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456212_17_05_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-847162
+INFO:root:[1.8058140277862549, 0.7307000160217285]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716212_17_19_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716212_17_19_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-305248
+INFO:root:[1.833950161933899, 0.7245000004768372]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524812_17_33_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-305248
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524812_17_33_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-816420
+INFO:root:[2.8947222232818604, 0.5942999720573425]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-81642012_22_21_09_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-816420
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-81642012_22_21_09_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-672543
+INFO:root:[2.123663902282715, 0.7179999947547913]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-67254312_00_45_10_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-672543
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-67254312_00_45_10_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-851624
+INFO:root:[0.9995080828666687, 0.784600019454956]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-85162412_02_49_10_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-851624
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-85162412_02_49_10_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-735642
+INFO:root:[1.2772153615951538, 0.6664000153541565]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-73564212_06_41_10_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-735642
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73564212_06_41_10_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-365724
+INFO:root:[1.8049269914627075, 0.730400025844574]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-36572412_06_54_10_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-365724
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-36572412_06_54_10_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-457186
+INFO:root:[1.4786744117736816, 0.6987000107765198]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-45718612_07_55_10_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-457186
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-45718612_07_55_10_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-762518
+INFO:root:[1.686389684677124, 0.6103000044822693]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-76251812_02_26_13_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-762518
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-76251812_02_26_13_03_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862512_14_37_08_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672312_17_33_08_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-06413512_20_41_08_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152812_11_51_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061812_15_45_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284512_15_58_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026812_16_12_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354112_16_25_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083512_16_38_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064712_16_52_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-80456212_17_05_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716212_17_19_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30524812_17_33_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-81642012_22_21_09_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-67254312_00_45_10_03_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-85162412_02_49_10_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73564212_06_41_10_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-36572412_06_54_10_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-45718612_07_55_10_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-76251812_02_26_13_03_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-851624
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-85162412_02_26_13_03_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-851624
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-85162412_02_26_13_03_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-851624 with fitness 0.784600019454956 for generation 12
+INFO:root:Time for generation: 12 --- 400527.3120625778
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 13
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-851624
+INFO:root:[1.1755375862121582, 0.7645999789237976]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-85162413_04_30_13_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-851624
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-85162413_04_30_13_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-308625
+INFO:root:[0.998185932636261, 0.7886000275611877]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862513_07_37_13_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-308625
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862513_07_37_13_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-071528
+INFO:root:[1.0010526180267334, 0.789900004863739]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152813_20_01_13_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-071528
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152813_20_01_13_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-086723
+INFO:root:[1.5996043682098389, 0.722000002861023]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672313_22_54_13_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-086723
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672313_22_54_13_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 4th blueprint with id: blueprint-530618
+INFO:root:[0.9605690240859985, 0.791700005531311]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061813_02_35_14_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-530618
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061813_02_35_14_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 5th blueprint with id: blueprint-732845
+INFO:root:[1.8154523372650146, 0.7236999869346619]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284513_02_48_14_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-732845
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284513_02_48_14_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 6th blueprint with id: blueprint-720835
+INFO:root:[1.8257337808609009, 0.7250999808311462]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083513_03_02_14_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-720835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083513_03_02_14_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 7th blueprint with id: blueprint-873541
+INFO:root:[1.79304039478302, 0.7257000207901001]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354113_03_15_14_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-873541
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354113_03_15_14_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 8th blueprint with id: blueprint-847162
+INFO:root:[1.8280810117721558, 0.7275999784469604]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716213_03_29_14_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-847162
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716213_03_29_14_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 9th blueprint with id: blueprint-750268
+INFO:root:[1.875247836112976, 0.7235000133514404]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026813_03_42_14_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-750268
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026813_03_42_14_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 10th blueprint with id: blueprint-365724
+INFO:root:[1.8502248525619507, 0.725600004196167]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-36572413_03_56_14_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-365724
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-36572413_03_56_14_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 11th blueprint with id: blueprint-280647
+INFO:root:[1.8825843334197998, 0.7239999771118164]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064713_04_09_14_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-280647
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064713_04_09_14_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 12th blueprint with id: blueprint-762518
+INFO:root:[1.9282429218292236, 0.6281999945640564]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-76251813_16_51_16_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-762518
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-76251813_16_51_16_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 13th blueprint with id: blueprint-052678
+INFO:root:[0.8923885822296143, 0.7924000024795532]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-05267813_18_17_16_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-052678
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-05267813_18_17_16_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 14th blueprint with id: blueprint-304765
+INFO:root:[1.872700572013855, 0.7204999923706055]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30476513_18_30_16_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-304765
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30476513_18_30_16_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 15th blueprint with id: blueprint-247835
+INFO:root:[1.3928602933883667, 0.713100016117096]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-24783513_18_38_16_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-247835
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-24783513_18_38_16_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 16th blueprint with id: blueprint-302415
+INFO:root:[1.0580474138259888, 0.7821999788284302]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30241513_08_55_17_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-302415
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30241513_08_55_17_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 17th blueprint with id: blueprint-852147
+INFO:root:[1.8089042901992798, 0.7324000000953674]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-85214713_15_30_17_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-852147
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-85214713_15_30_17_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 18th blueprint with id: blueprint-471308
+INFO:root:[1.4325520992279053, 0.7195000052452087]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-47130813_16_32_17_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-471308
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-47130813_16_32_17_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 19th blueprint with id: blueprint-081627
+INFO:root:[2.721421957015991, 0.6753000020980835]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-08162713_19_26_17_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-081627
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-08162713_19_26_17_03_2021
+INFO:root:Training for model complete
+INFO:root:****************************************
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-85162413_04_30_13_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862513_07_37_13_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152813_20_01_13_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-08672313_22_54_13_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061813_02_35_14_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-73284513_02_48_14_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-72083513_03_02_14_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-87354113_03_15_14_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-84716213_03_29_14_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-75026813_03_42_14_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-36572413_03_56_14_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-28064713_04_09_14_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-76251813_16_51_16_03_2021
+INFO:root:Best blueprint at /home/student/masterthesis/coceenna/saved_models/modelblueprint-05267813_18_17_16_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30476513_18_30_16_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-24783513_18_38_16_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30241513_08_55_17_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-85214713_15_30_17_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-47130813_16_32_17_03_2021
+INFO:root:Cleaning up saved model at path /home/student/masterthesis/coceenna/saved_models/modelblueprint-08162713_19_26_17_03_2021
+INFO:root:****************************************
+INFO:root:Building model for 0th blueprint with id: blueprint-052678
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-05267813_19_27_17_03_2021/assets
+INFO:root:Saved model, image and json for best blueprintblueprint-052678
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-05267813_19_27_17_03_2021
+INFO:root:****************************************
+INFO:root:Best blueprint id blueprint-052678 with fitness 0.7924000024795532 for generation 13
+INFO:root:Time for generation: 13 --- 406827.30004398664
+INFO:root:Generation complete
+INFO:root:****************************************
+INFO:root:****************************************
+INFO:root:Evolving for generation: 14
+INFO:root:****************************************
+INFO:root:Training 0th blueprint with id: blueprint-530618
+INFO:root:[0.9409658908843994, 0.788100004196167]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061814_22_57_17_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-530618
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-53061814_22_57_17_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 1th blueprint with id: blueprint-071528
+INFO:root:[1.1049273014068604, 0.7712000012397766]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152814_11_18_18_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-071528
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-07152814_11_18_18_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 2th blueprint with id: blueprint-308625
+INFO:root:[0.9314959049224854, 0.7962999939918518]
+INFO:tensorflow:Assets written to: /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862514_14_04_18_03_2021/assets
+INFO:root:Saved model, image and json for  blueprintblueprint-308625
+INFO:root:At path /home/student/masterthesis/coceenna/saved_models/modelblueprint-30862514_14_04_18_03_2021
+INFO:root:Training for model complete
+INFO:root:Training 3th blueprint with id: blueprint-302415

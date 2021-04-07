@@ -1,0 +1,594 @@
+{
+    "module-643528_0": {
+        "node-578014": {
+            "activations": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "components": {
+                "component-716308": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-637812": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-754236": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-652748": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-360512": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-346120": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-215876": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-103876": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ]
+            }
+        },
+        "node-703546": {
+            "activations": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "components": {
+                "component-621405": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-583417": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-451728": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-473120": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-387042": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-376508": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-812530": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-034215": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ]
+            }
+        },
+        "node-612437": {
+            "activations": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "components": {
+                "component-312745": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-081426": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-523860": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-342617": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-104628": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-540163": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-738205": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-648357": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ]
+            }
+        },
+        "node-152860": {
+            "activations": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "components": {
+                "component-052671": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-381064": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-612408": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-062783": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-517026": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-567302": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-578143": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-460537": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ]
+            }
+        },
+        "node-648705": {
+            "activations": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "components": {
+                "component-403568": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-236478": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-178306": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-613450": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 3,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-784260": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-146857": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 2,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-538472": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": true,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ],
+                "component-854137": [
+                    [
+                        "ConvBNRelu",
+                        {
+                            "filters": 4,
+                            "kernel_size": 5,
+                            "pool_size": 3,
+                            "maxpool": false,
+                            "padding": "same",
+                            "activation": "relu"
+                        }
+                    ]
+                ]
+            }
+        }
+    }
+}

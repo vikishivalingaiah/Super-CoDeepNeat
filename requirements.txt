@@ -1,0 +1,12 @@
+#python==3.6.9
+networkx
+numpy 
+scipy 
+pandas 
+matplotlib 
+pygraphviz 
+pydot 
+pyyaml
+tensorflow
+pmlb
+sklearn
